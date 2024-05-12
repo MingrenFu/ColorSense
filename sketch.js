@@ -104,7 +104,7 @@ function draw() {
 
   textSize(20);
   fill("white");
-  rect(10, 430, 277, 150); // text background
+  rect(windowWidth*0.1, windowHeight*0.8, 277, 150); // text background
   fill("black"); // fixed color for the text
   // text ("RGBA Value:  " + colorPicker.color, 30, 500)
   if (colorAPI) {
