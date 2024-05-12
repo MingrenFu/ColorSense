@@ -25,7 +25,7 @@ function setup() {
 
   video.hide();
   // createCanvas(800, 600);
-  createCanvas(windowWidth, 600);
+  createCanvas(windowWidth, windowHeight);
   // fill(255, 0, 0);
   // loadJSON('https://www.thecolorapi.com/id?rgb=rgb(${splitColor[0]},${splitColor[1]},${splitColor[2]})', gotData);
 
